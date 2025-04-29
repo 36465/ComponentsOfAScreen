@@ -4,13 +4,13 @@ import { View, Text, StyleSheet } from 'react-native';
 const App = () => {
   return (
     <View style={styles.container}>
-      {/* Navbar */}
+      
       <View style={styles.navbar}>
         <Text>navbar</Text>
       </View>
 
       <View style={styles.jumbotronSection}>
-        <Text style={{ color: '#FF6B35' }}>image/video</Text>
+        <Text>image/video</Text>
       </View>
 
       <View style={styles.secondMainSection}>
